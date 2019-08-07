@@ -86,7 +86,7 @@
  	}
 
  	/*begin equal rules*/
- 	&--equal-at-medium {
+ 	.flexbox &--equal-at-medium {
  		@mixin atMedium {
  			display: flex;
  		}
@@ -97,7 +97,7 @@
  		}
  	}
 
- 	&--equal-at-large {
+ 	.flexbox &--equal-at-large {
  		@mixin atLarge {
  			display: flex;
  		}

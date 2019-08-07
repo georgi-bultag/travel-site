@@ -825,14 +825,14 @@ a {
 
 @media (min-width: 800px) {
 
-.row--equal-at-medium {
+.flexbox .row--equal-at-medium {
  			display: -webkit-box;
  			display: -ms-flexbox;
  			display: flex
  	}
 	}
 
-.row--equal-at-medium > div {
+.flexbox .row--equal-at-medium > div {
  			float: none;
  			display: -webkit-box;
  			display: -ms-flexbox;
@@ -841,14 +841,14 @@ a {
 
 @media (min-width: 1010px) {
 
-.row--equal-at-large {
+.flexbox .row--equal-at-large {
  			display: -webkit-box;
  			display: -ms-flexbox;
  			display: flex
  	}
 	}
 
-.row--equal-at-large > div {
+.flexbox .row--equal-at-large > div {
  			float: none;
  			display: -webkit-box;
  			display: -ms-flexbox;
@@ -1008,8 +1008,12 @@ a {
 /* Do not edit modules/_sprites. They are auto */
 
 .icon {
-	background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');
+	background-image: url('/assets/images/sprites/sprite-172298e6.svg');
 }
+
+.no-svg .icon {
+			background-image: url('/assets/images/sprites/sprite-172298e6.png');
+		}
 
 .icon--clear-view-escapes {
 		width: 142.4px;
@@ -1085,7 +1089,7 @@ a {
 
 /* /temp/sprite/css */
 
-/* background-image: url('/assets/images/sprites/sprite-69f19c2e.svg'); */
+/* background-image: url('/assets/images/sprites/sprite-172298e6.svg'); */
 
 .site-footer {
 	background-color: #2f5572;
@@ -1165,8 +1169,8 @@ a {
 	}
 
 			.site-header--dark .site-header__logo {
-				-webkit-transform: scale(.57);
-				        transform: scale(.57);
+				-webkit-transform: scale(.56);
+				        transform: scale(.56);
 			}
 	}
 
